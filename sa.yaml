@@ -4,4 +4,4 @@ metadata:
   labels:
     control-plane: controller-manager
   name: dell-csi-operator-manager-service-account
-  namespace: dell-operator
+  namespace: dell-csi-operator

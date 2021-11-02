@@ -4,7 +4,7 @@ metadata:
   labels:
     control-plane: controller-manager
   name: dell-csi-operator-controller-manager
-  namespace: dell-operator
+  namespace: dell-csi-operator
 spec:
   replicas: 1
   selector:

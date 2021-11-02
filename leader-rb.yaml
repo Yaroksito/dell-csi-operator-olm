@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: dell-csi-operator-leader-election-rolebinding
-  namespace: dell-operator
+  namespace: dell-csi-operator
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: Role
@@ -10,4 +10,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: default
-  namespace: dell-operator
+  namespace: dell-csi-operator
