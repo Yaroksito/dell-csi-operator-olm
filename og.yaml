@@ -1,0 +1,10 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  annotations:
+    olm.providedAPIs: CSIIsilon.v1.storage.dell.com,CSIPowerMax.v1.storage.dell.com,CSIPowerMaxRevProxy.v1.storage.dell.com,CSIPowerStore.v1.storage.dell.com,CSIUnity.v1.storage.dell.com,CSIVXFlexOS.v1.storage.dell.com
+  name: dell-csi-operator-b2rpr
+  namespace: dell-csi-operator
+spec:
+  targetNamespaces:
+  - dell-csi-operator
